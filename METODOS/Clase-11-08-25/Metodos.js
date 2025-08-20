@@ -52,7 +52,7 @@ rl.question('Ingrese una frase: ', (frase) =>{
    const fraseAray = frase.split(' ');
    console.log(`La frase dividida en palabras es: ${fraseAray}`);
 
-   //10. includes() => Determina si una cadena contiene otra cadena
+   //10. includes() => Verifica si laa cadena contiene un texto
    const fraseIncluyeHola = frase.includes('hola');
    console.log(`La frase incluye la palabra 'hola': ${fraseIncluyeHola}`);
 
@@ -60,11 +60,11 @@ rl.question('Ingrese una frase: ', (frase) =>{
    const IndiceHola = frase.indexOf('hola');
    console.log(`El indice de la primera ocurrencia de 'hola' es: ${IndiceHola}`);
 
-   // 12. startsWith() => Determina si una cadena comienza con otra cadena
+   // 12. startsWith() => Comprueba si la cadena empieza con un  texto
    const fraseEmpiezaConHola = frase.startsWith('hola');
    console.log(`La frase empieza con 'hola': ${fraseEmpiezaConHola}`);
 
-   //13. endsWith() => Determina si una cadena termina con otra cadena
+   //13. endsWith() => Comprueba si la cadena termina con un texto
    const fraseTerminaConAdios = frase.endsWith('adios');
    console.log(`La frase termina con 'adios': ${fraseTerminaConAdios}`);
 
