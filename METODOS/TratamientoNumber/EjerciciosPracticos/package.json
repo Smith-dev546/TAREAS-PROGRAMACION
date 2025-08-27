@@ -1,9 +1,9 @@
 {
-  "name": "clase-25-08-25",
+  "name": "ejerciciospracticos",
   "version": "1.0.0",
   "description": "",
-  "main": "numeros.js",
-   "type": "module",
+  "main": "Ejercicios.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
